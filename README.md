@@ -1,6 +1,6 @@
 # SDE-DATA-Interview-prep
 
-A comprehensive interview preparation repository covering **Software Engineering, Data Engineering, ML/AI, and System Design** — with detailed Q&A across 17+ topics.
+A comprehensive interview preparation repository covering **Software Engineering, Data Engineering, ML/AI, and System Design** — with detailed Q&A across **27+ topics**.
 
 ---
 
@@ -34,6 +34,16 @@ A comprehensive interview preparation repository covering **Software Engineering
 | [transformers_llmsQ&A.md](Iinterview_prep_Q&A/transformers_llmsQ&A.md) | Attention, transformers, LLMs, fine-tuning, RAG |
 | [ml_systems_designQ&A.md](Iinterview_prep_Q&A/ml_systems_designQ&A.md) | End-to-end ML system design (recommendations, search, etc.) |
 | [mlflow_mlopsQ&A.md](Iinterview_prep_Q&A/mlflow_mlopsQ&A.md) | MLflow, experiment tracking, model registry, CI/CD for ML |
+| [statistics_probabilityQ&A.md](Iinterview_prep_Q&A/statistics_probabilityQ&A.md) | Bayes, CLT, hypothesis testing, A/B testing, distributions |
+| [cloud_services_aws_gcpQ&A.md](Iinterview_prep_Q&A/cloud_services_aws_gcpQ&A.md) | **AWS vs GCP vs Azure service mapping with HLD analogies** |
+| [kubernetes_dockerQ&A.md](Iinterview_prep_Q&A/kubernetes_dockerQ&A.md) | Docker images/containers, K8s architecture, pods, services, Helm |
+| [terraform_iacQ&A.md](Iinterview_prep_Q&A/terraform_iacQ&A.md) | Terraform workflow, state, modules, providers, IaC concepts |
+| [react_frontendQ&A.md](Iinterview_prep_Q&A/react_frontendQ&A.md) | React hooks, Virtual DOM, Next.js, SSR/SSG, state management |
+| [spark_airflowQ&A.md](Iinterview_prep_Q&A/spark_airflowQ&A.md) | Spark architecture, RDD vs DataFrame, Catalyst, Airflow DAGs |
+| [llm_frameworks_ragQ&A.md](Iinterview_prep_Q&A/llm_frameworks_ragQ&A.md) | RAG, LangChain, LlamaIndex, vector DBs, agents, fine-tuning |
+| [gpu_cudaQ&A.md](Iinterview_prep_Q&A/gpu_cudaQ&A.md) | CUDA, Tensor Cores, mixed precision, model parallelism, quantization |
+| [model_serving_infraQ&A.md](Iinterview_prep_Q&A/model_serving_infraQ&A.md) | Triton, vLLM, TensorRT, feature stores, drift detection, CI/CD for ML |
+| [compiler_design_tocQ&A.md](Iinterview_prep_Q&A/compiler_design_tocQ&A.md) | Automata, CFG, Turing machines, P vs NP, compiler phases |
 
 ---
 
@@ -56,8 +66,10 @@ A comprehensive interview preparation repository covering **Software Engineering
 | 🟠 | [operating_systemsQ&A.md](Iinterview_prep_Q&A/operating_systemsQ&A.md) |
 | 🟡 | [computer_networksQ&A.md](Iinterview_prep_Q&A/computer_networksQ&A.md) |
 | 🟡 | [programming_fundamentalsQ&A.md](Iinterview_prep_Q&A/programming_fundamentalsQ&A.md) |
+| 🟡 | [kubernetes_dockerQ&A.md](Iinterview_prep_Q&A/kubernetes_dockerQ&A.md) |
+| 🟢 | [cloud_services_aws_gcpQ&A.md](Iinterview_prep_Q&A/cloud_services_aws_gcpQ&A.md) |
 
-**Additional:** Practice 150+ Leetcode problems (medium-heavy). Study Redis, Kafka, message queues, and rate limiting patterns (not yet covered — external resources recommended).
+**Additional:** Practice 150+ Leetcode problems (medium-heavy). Study Redis, Kafka, message queues, and rate limiting patterns.
 
 ---
 
@@ -88,7 +100,9 @@ A comprehensive interview preparation repository covering **Software Engineering
 | 🟠 | [operating_systemsQ&A.md](Iinterview_prep_Q&A/operating_systemsQ&A.md) |
 | 🟡 | [DSA.md](Iinterview_prep_Q&A/DSA.md) |
 
-**Additional:** Study DDIA (Designing Data-Intensive Applications), Alex Xu's System Design Interview books. Practice designing: URL shortener, Twitter feed, notification system, chat system, rate limiter, distributed cache.
+| 🟠 | [cloud_services_aws_gcpQ&A.md](Iinterview_prep_Q&A/cloud_services_aws_gcpQ&A.md) |
+
+**Additional:** Study DDIA (Designing Data-Intensive Applications), Alex Xu's System Design Interview books. The [cloud_services_aws_gcpQ&A.md](Iinterview_prep_Q&A/cloud_services_aws_gcpQ&A.md) file maps abstract HLD components to real AWS/GCP services — great for making designs concrete.
 
 ---
 
@@ -104,8 +118,9 @@ A comprehensive interview preparation repository covering **Software Engineering
 | 🟠 | [programming_fundamentalsQ&A.md](Iinterview_prep_Q&A/programming_fundamentalsQ&A.md) |
 | 🟡 | [system_design_HLDQ&A.md](Iinterview_prep_Q&A/system_design_HLDQ&A.md) |
 | 🟡 | [low_level_design_LLDQ&A.md](Iinterview_prep_Q&A/low_level_design_LLDQ&A.md) |
+| 🟡 | [compiler_design_tocQ&A.md](Iinterview_prep_Q&A/compiler_design_tocQ&A.md) |
 
-**Additional:** Revise compiler design basics, theory of computation, and discrete mathematics (not covered here — use GATE material or university notes).
+**Additional:** Also revise discrete mathematics (not covered here — use GATE material or university notes).
 
 ---
 
@@ -121,8 +136,10 @@ A comprehensive interview preparation repository covering **Software Engineering
 | 🟠 | [DSA.md](Iinterview_prep_Q&A/DSA.md) |
 | 🟡 | [backend_engineeringQ&A.md](Iinterview_prep_Q&A/backend_engineeringQ&A.md) |
 | 🟡 | [operating_systemsQ&A.md](Iinterview_prep_Q&A/operating_systemsQ&A.md) |
+| 🟠 | [spark_airflowQ&A.md](Iinterview_prep_Q&A/spark_airflowQ&A.md) |
+| 🟡 | [cloud_services_aws_gcpQ&A.md](Iinterview_prep_Q&A/cloud_services_aws_gcpQ&A.md) |
 
-**Additional:** Study Apache Spark internals, Airflow DAGs, data modeling (star/snowflake schema), Kafka, dbt, Delta Lake/Iceberg. Practice SQL window functions and complex joins extensively.
+**Additional:** Study data modeling (star/snowflake schema), Kafka, dbt, Delta Lake/Iceberg. Practice SQL window functions and complex joins extensively.
 
 ---
 
@@ -138,8 +155,9 @@ A comprehensive interview preparation repository covering **Software Engineering
 | 🟡 | [databases_DBMSQ&A.md](Iinterview_prep_Q&A/databases_DBMSQ&A.md) |
 | 🟡 | [DSA.md](Iinterview_prep_Q&A/DSA.md) |
 | 🟢 | [data_engineeringQ&A.md](Iinterview_prep_Q&A/data_engineeringQ&A.md) |
+| 🔴 | [statistics_probabilityQ&A.md](Iinterview_prep_Q&A/statistics_probabilityQ&A.md) |
 
-**Additional:** Brush up on statistics & probability (hypothesis testing, A/B testing, Bayesian inference), EDA techniques, pandas/numpy proficiency, and case study problem-solving. Not covered here — use external stats resources.
+**Additional:** Practice EDA techniques, pandas/numpy proficiency, and case study problem-solving.
 
 ---
 
@@ -156,8 +174,9 @@ A comprehensive interview preparation repository covering **Software Engineering
 | 🟡 | [mlflow_mlopsQ&A.md](Iinterview_prep_Q&A/mlflow_mlopsQ&A.md) |
 | 🟡 | [DSA.md](Iinterview_prep_Q&A/DSA.md) |
 | 🟢 | [backend_engineeringQ&A.md](Iinterview_prep_Q&A/backend_engineeringQ&A.md) |
+| 🔴 | [llm_frameworks_ragQ&A.md](Iinterview_prep_Q&A/llm_frameworks_ragQ&A.md) |
 
-**Additional:** Study prompt engineering, RAG architectures, vector databases (Pinecone, Weaviate), LangChain/LlamaIndex, fine-tuning (LoRA/QLoRA), and RLHF. Build at least one end-to-end LLM application.
+**Additional:** Build at least one end-to-end LLM application. Practice prompt engineering hands-on.
 
 ---
 
@@ -175,8 +194,10 @@ A comprehensive interview preparation repository covering **Software Engineering
 | 🟡 | [system_design_HLDQ&A.md](Iinterview_prep_Q&A/system_design_HLDQ&A.md) |
 | 🟡 | [data_engineeringQ&A.md](Iinterview_prep_Q&A/data_engineeringQ&A.md) |
 | 🟢 | [backend_engineeringQ&A.md](Iinterview_prep_Q&A/backend_engineeringQ&A.md) |
+| 🟠 | [model_serving_infraQ&A.md](Iinterview_prep_Q&A/model_serving_infraQ&A.md) |
+| 🟠 | [statistics_probabilityQ&A.md](Iinterview_prep_Q&A/statistics_probabilityQ&A.md) |
 
-**Additional:** Study model serving (TFServing, Triton, BentoML), feature stores, A/B testing for ML, monitoring & drift detection, and distributed training. Practice Leetcode (medium level, ~100 problems).
+**Additional:** Practice Leetcode (medium level, ~100 problems). Study distributed training hands-on.
 
 ---
 
@@ -194,8 +215,9 @@ A comprehensive interview preparation repository covering **Software Engineering
 | 🟡 | [programming_fundamentalsQ&A.md](Iinterview_prep_Q&A/programming_fundamentalsQ&A.md) |
 | 🟡 | [computer_networksQ&A.md](Iinterview_prep_Q&A/computer_networksQ&A.md) |
 | 🟡 | [operating_systemsQ&A.md](Iinterview_prep_Q&A/operating_systemsQ&A.md) |
+| 🔴 | [react_frontendQ&A.md](Iinterview_prep_Q&A/react_frontendQ&A.md) |
 
-**Additional:** Study React/Next.js internals, CSS layout, browser rendering pipeline, authentication flows (OAuth, JWT), GraphQL, WebSockets, and CI/CD. Build and deploy at least one full-stack project.
+**Additional:** Study CSS layout, browser rendering pipeline, authentication flows (OAuth, JWT), GraphQL, WebSockets, and CI/CD. Build and deploy at least one full-stack project.
 
 ---
 
@@ -211,8 +233,11 @@ A comprehensive interview preparation repository covering **Software Engineering
 | 🟡 | [DSA.md](Iinterview_prep_Q&A/DSA.md) |
 | 🟡 | [programming_fundamentalsQ&A.md](Iinterview_prep_Q&A/programming_fundamentalsQ&A.md) |
 | 🟢 | [sqlQ&A.md](Iinterview_prep_Q&A/sqlQ&A.md) |
+| 🔴 | [cloud_services_aws_gcpQ&A.md](Iinterview_prep_Q&A/cloud_services_aws_gcpQ&A.md) |
+| 🔴 | [kubernetes_dockerQ&A.md](Iinterview_prep_Q&A/kubernetes_dockerQ&A.md) |
+| 🟠 | [terraform_iacQ&A.md](Iinterview_prep_Q&A/terraform_iacQ&A.md) |
 
-**Additional:** Study cloud-specific material (not covered here): AWS/GCP/Azure services, IAM, VPC/networking, Terraform/IaC, Kubernetes, Docker, CI/CD pipelines, cost optimization, and security best practices. Get at least one cloud certification (AWS SAA / GCP ACE).
+**Additional:** Get at least one cloud certification (AWS SAA / GCP ACE). Study cost optimization and security best practices hands-on.
 
 ---
 
@@ -231,27 +256,33 @@ A comprehensive interview preparation repository covering **Software Engineering
 | 🟡 | [databases_DBMSQ&A.md](Iinterview_prep_Q&A/databases_DBMSQ&A.md) |
 | 🟡 | [programming_fundamentalsQ&A.md](Iinterview_prep_Q&A/programming_fundamentalsQ&A.md) |
 | 🟢 | [ml_fundamentalsQ&A.md](Iinterview_prep_Q&A/ml_fundamentalsQ&A.md) |
+| 🔴 | [gpu_cudaQ&A.md](Iinterview_prep_Q&A/gpu_cudaQ&A.md) |
+| 🔴 | [model_serving_infraQ&A.md](Iinterview_prep_Q&A/model_serving_infraQ&A.md) |
+| 🟠 | [kubernetes_dockerQ&A.md](Iinterview_prep_Q&A/kubernetes_dockerQ&A.md) |
+| 🟠 | [cloud_services_aws_gcpQ&A.md](Iinterview_prep_Q&A/cloud_services_aws_gcpQ&A.md) |
 
-**Additional:** Study GPU programming (CUDA basics), distributed training (DeepSpeed, FSDP), model serving at scale (Triton, vLLM, TGI), Kubernetes for ML workloads, spot/preemptible instances, and infrastructure cost optimization. Not covered here — use NVIDIA and cloud provider docs.
+**Additional:** Study spot/preemptible instances and infrastructure cost optimization hands-on.
 
 ---
 
-## 📚 Material Gaps & External Resources Needed
+## 📚 Previously Missing Topics — Now Covered!
 
-Some roles require knowledge **not fully covered** in this repo. Here's what to supplement:
+All previously identified gaps have been filled with new Q&A files:
 
-| Topic | Needed For | Recommended Resources |
-|-------|-----------|----------------------|
-| **Statistics & Probability** | Data Scientist, ML Engineer | Khan Academy, Think Stats, StatQuest |
-| **Cloud Services (AWS/GCP/Azure)** | Cloud Engineer, AI Infra Engineer | Cloud provider docs, A Cloud Guru |
-| **Kubernetes & Docker** | Cloud Engineer, AI Infra Engineer, Backend | Kubernetes docs, Docker docs |
-| **Terraform / IaC** | Cloud Engineer, DevOps | HashiCorp Terraform tutorials |
-| **React / Frontend Frameworks** | Full Stack Engineer | React docs, Next.js docs |
-| **Spark / Airflow Internals** | Data Engineer | Spark: The Definitive Guide |
-| **LLM Frameworks (LangChain, etc.)** | AI Engineer | LangChain docs, LlamaIndex docs |
-| **GPU / CUDA Programming** | AI Infra Engineer | NVIDIA CUDA Programming Guide |
-| **Model Serving (Triton, vLLM)** | ML Engineer, AI Infra Engineer | NVIDIA Triton docs, vLLM docs |
-| **Compiler Design / TOC** | CSE Fundamentals (GATE) | University notes, GATE prep material |
+| Topic | File Added | Roles |
+|-------|-----------|-------|
+| Statistics & Probability | [statistics_probabilityQ&A.md](Iinterview_prep_Q&A/statistics_probabilityQ&A.md) | Data Scientist, ML Engineer |
+| Cloud Services (AWS vs GCP vs Azure) | [cloud_services_aws_gcpQ&A.md](Iinterview_prep_Q&A/cloud_services_aws_gcpQ&A.md) | Cloud Engineer, AI Infra, **HLD interviews** |
+| Kubernetes & Docker | [kubernetes_dockerQ&A.md](Iinterview_prep_Q&A/kubernetes_dockerQ&A.md) | Cloud Engineer, AI Infra, Backend |
+| Terraform / IaC | [terraform_iacQ&A.md](Iinterview_prep_Q&A/terraform_iacQ&A.md) | Cloud Engineer, DevOps |
+| React / Frontend | [react_frontendQ&A.md](Iinterview_prep_Q&A/react_frontendQ&A.md) | Full Stack Engineer |
+| Spark / Airflow | [spark_airflowQ&A.md](Iinterview_prep_Q&A/spark_airflowQ&A.md) | Data Engineer |
+| LLM Frameworks & RAG | [llm_frameworks_ragQ&A.md](Iinterview_prep_Q&A/llm_frameworks_ragQ&A.md) | AI Engineer |
+| GPU / CUDA | [gpu_cudaQ&A.md](Iinterview_prep_Q&A/gpu_cudaQ&A.md) | AI Infra Engineer |
+| Model Serving (Triton, vLLM) | [model_serving_infraQ&A.md](Iinterview_prep_Q&A/model_serving_infraQ&A.md) | ML Engineer, AI Infra |
+| Compiler Design / TOC | [compiler_design_tocQ&A.md](Iinterview_prep_Q&A/compiler_design_tocQ&A.md) | CSE Fundamentals (GATE) |
+
+> 💡 **HLD Tip:** The [cloud_services_aws_gcpQ&A.md](Iinterview_prep_Q&A/cloud_services_aws_gcpQ&A.md) file includes a complete **AWS vs GCP service mapping with HLD analogies** — use it to translate abstract system design into real cloud services (e.g., "the cache" → ElastiCache/Memorystore, "the queue" → SQS/Pub/Sub).
 
 ---
 
