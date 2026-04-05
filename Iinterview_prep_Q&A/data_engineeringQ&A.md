@@ -223,6 +223,7 @@ Dimensions change over time — a customer moves cities, a product's price chang
 
 Customer_dim:
 | id | name | city | effective_date | end_date | is_current |
+| --- | --- | --- | --- | --- | --- |
 | 1 | Aman | Delhi | 2020-01-01 | 2024-06-01 | false |
 | 1 | Aman | Mumbai | 2024-06-01 | NULL | true |
 
