@@ -44,6 +44,9 @@ A comprehensive interview preparation repository covering **Software Engineering
 | [gpu_cudaQ&A.md](Iinterview_prep_Q&A/gpu_cudaQ&A.md) | CUDA, Tensor Cores, mixed precision, model parallelism, quantization |
 | [model_serving_infraQ&A.md](Iinterview_prep_Q&A/model_serving_infraQ&A.md) | Triton, vLLM, TensorRT, feature stores, drift detection, CI/CD for ML |
 | [compiler_design_tocQ&A.md](Iinterview_prep_Q&A/compiler_design_tocQ&A.md) | Automata, CFG, Turing machines, P vs NP, compiler phases |
+| [python_Q&A.md](Iinterview_prep_Q&A/python_Q&A.md) | GIL, memory management, decorators, generators, asyncio, metaclasses |
+| [java_Q&A.md](Iinterview_prep_Q&A/java_Q&A.md) | JVM memory model, GC, generics, Collections, concurrency, streams |
+| [cpp_Q&A.md](Iinterview_prep_Q&A/cpp_Q&A.md) | RAII, smart pointers, move semantics, templates, vtables, UB |
 
 ---
 
@@ -68,6 +71,9 @@ A comprehensive interview preparation repository covering **Software Engineering
 | 🟡 | [programming_fundamentalsQ&A.md](Iinterview_prep_Q&A/programming_fundamentalsQ&A.md) |
 | 🟡 | [kubernetes_dockerQ&A.md](Iinterview_prep_Q&A/kubernetes_dockerQ&A.md) |
 | 🟢 | [cloud_services_aws_gcpQ&A.md](Iinterview_prep_Q&A/cloud_services_aws_gcpQ&A.md) |
+| 🟡 | [java_Q&A.md](Iinterview_prep_Q&A/java_Q&A.md) *(if Java stack)* |
+| 🟡 | [cpp_Q&A.md](Iinterview_prep_Q&A/cpp_Q&A.md) *(if C++ stack)* |
+| 🟡 | [python_Q&A.md](Iinterview_prep_Q&A/python_Q&A.md) *(if Python stack)* |
 
 **Additional:** Practice 150+ Leetcode problems (medium-heavy). Study Redis, Kafka, message queues, and rate limiting patterns.
 
@@ -83,6 +89,9 @@ A comprehensive interview preparation repository covering **Software Engineering
 | 🟠 | [databases_DBMSQ&A.md](Iinterview_prep_Q&A/databases_DBMSQ&A.md) |
 | 🟡 | [system_design_HLDQ&A.md](Iinterview_prep_Q&A/system_design_HLDQ&A.md) |
 | 🟡 | [low_level_design_LLDQ&A.md](Iinterview_prep_Q&A/low_level_design_LLDQ&A.md) |
+| 🔴 | [java_Q&A.md](Iinterview_prep_Q&A/java_Q&A.md) *(if Java)* |
+| 🔴 | [cpp_Q&A.md](Iinterview_prep_Q&A/cpp_Q&A.md) *(if C++)* |
+| 🔴 | [python_Q&A.md](Iinterview_prep_Q&A/python_Q&A.md) *(if Python)* |
 
 **Additional:** Grind 200+ Leetcode (Blind 75 + Neetcode 150). Focus on dynamic programming, graph algorithms, and sliding window patterns. Practice time-complexity analysis.
 
@@ -138,6 +147,7 @@ A comprehensive interview preparation repository covering **Software Engineering
 | 🟡 | [operating_systemsQ&A.md](Iinterview_prep_Q&A/operating_systemsQ&A.md) |
 | 🟠 | [spark_airflowQ&A.md](Iinterview_prep_Q&A/spark_airflowQ&A.md) |
 | 🟡 | [cloud_services_aws_gcpQ&A.md](Iinterview_prep_Q&A/cloud_services_aws_gcpQ&A.md) |
+| 🟠 | [python_Q&A.md](Iinterview_prep_Q&A/python_Q&A.md) |
 
 **Additional:** Study data modeling (star/snowflake schema), Kafka, dbt, Delta Lake/Iceberg. Practice SQL window functions and complex joins extensively.
 
@@ -156,6 +166,7 @@ A comprehensive interview preparation repository covering **Software Engineering
 | 🟡 | [DSA.md](Iinterview_prep_Q&A/DSA.md) |
 | 🟢 | [data_engineeringQ&A.md](Iinterview_prep_Q&A/data_engineeringQ&A.md) |
 | 🔴 | [statistics_probabilityQ&A.md](Iinterview_prep_Q&A/statistics_probabilityQ&A.md) |
+| 🔴 | [python_Q&A.md](Iinterview_prep_Q&A/python_Q&A.md) |
 
 **Additional:** Practice EDA techniques, pandas/numpy proficiency, and case study problem-solving.
 
@@ -175,6 +186,7 @@ A comprehensive interview preparation repository covering **Software Engineering
 | 🟡 | [DSA.md](Iinterview_prep_Q&A/DSA.md) |
 | 🟢 | [backend_engineeringQ&A.md](Iinterview_prep_Q&A/backend_engineeringQ&A.md) |
 | 🔴 | [llm_frameworks_ragQ&A.md](Iinterview_prep_Q&A/llm_frameworks_ragQ&A.md) |
+| 🟠 | [python_Q&A.md](Iinterview_prep_Q&A/python_Q&A.md) |
 
 **Additional:** Build at least one end-to-end LLM application. Practice prompt engineering hands-on.
 
@@ -196,6 +208,7 @@ A comprehensive interview preparation repository covering **Software Engineering
 | 🟢 | [backend_engineeringQ&A.md](Iinterview_prep_Q&A/backend_engineeringQ&A.md) |
 | 🟠 | [model_serving_infraQ&A.md](Iinterview_prep_Q&A/model_serving_infraQ&A.md) |
 | 🟠 | [statistics_probabilityQ&A.md](Iinterview_prep_Q&A/statistics_probabilityQ&A.md) |
+| 🟠 | [python_Q&A.md](Iinterview_prep_Q&A/python_Q&A.md) |
 
 **Additional:** Practice Leetcode (medium level, ~100 problems). Study distributed training hands-on.
 
@@ -281,6 +294,9 @@ All previously identified gaps have been filled with new Q&A files:
 | GPU / CUDA | [gpu_cudaQ&A.md](Iinterview_prep_Q&A/gpu_cudaQ&A.md) | AI Infra Engineer |
 | Model Serving (Triton, vLLM) | [model_serving_infraQ&A.md](Iinterview_prep_Q&A/model_serving_infraQ&A.md) | ML Engineer, AI Infra |
 | Compiler Design / TOC | [compiler_design_tocQ&A.md](Iinterview_prep_Q&A/compiler_design_tocQ&A.md) | CSE Fundamentals (GATE) |
+| Python (Language-Specific) | [python_Q&A.md](Iinterview_prep_Q&A/python_Q&A.md) | Data Scientist, ML Engineer, AI Engineer, Data Engineer |
+| Java (Language-Specific) | [java_Q&A.md](Iinterview_prep_Q&A/java_Q&A.md) | Software Engineer (Backend/DSA), Full Stack |
+| C++ (Language-Specific) | [cpp_Q&A.md](Iinterview_prep_Q&A/cpp_Q&A.md) | Software Engineer (DSA/Systems), AI Infrastructure |
 
 > 💡 **HLD Tip:** The [cloud_services_aws_gcpQ&A.md](Iinterview_prep_Q&A/cloud_services_aws_gcpQ&A.md) file includes a complete **AWS vs GCP service mapping with HLD analogies** — use it to translate abstract system design into real cloud services (e.g., "the cache" → ElastiCache/Memorystore, "the queue" → SQS/Pub/Sub).
 
